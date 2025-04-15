@@ -12,7 +12,7 @@ This project
 
 
 **CP FILES**
-- `matrix.h`
+- `matrix.hpp`
 - `matrix.cpp`
 - `main.cpp`
 - `makefile`
