@@ -1,6 +1,6 @@
 // main.cpp
 
-#include "matrix.h"
+#include "matrix.hpp"
 #include <vector>
 
 int main(){
