@@ -1,6 +1,6 @@
 // matrix.cpp
 
-#include "matrix.h"
+#include "matrix.hpp"
 #include <vector>
 
 Matrix::Matrix(int rows, int cols) : rows(rows), cols(cols){
