@@ -1,7 +1,7 @@
 // matrix.h
 
-#ifndef matrix_h
-#define matrix_h
+#ifndef matrix_hpp
+#define matrix_hpp
 
 #include <vector>
 #include <iostream>
