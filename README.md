@@ -18,12 +18,12 @@ The project supports both **C** and **C++**
 
 **C Version**
 - `matrix.h`   - Declaration of the Matrix struct and matrix operations
-- `matrix.c`   - Implementation of the matric operations
+- `matrix.c`   - Implementation of the matrix operations
 - `maint.c`    - Test program
 
 **CPP Version**
 - `matrix.hpp` - Declaration of the Matrix class
-- `matrix.cpp` - Implementation of the matric class methods
+- `matrix.cpp` - Implementation of the matrix class methods
 - `main.cpp`   - Test Program
 
 ## BUILD INSTRUCTIONS
