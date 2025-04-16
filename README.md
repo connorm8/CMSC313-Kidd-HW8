@@ -21,7 +21,7 @@ The project supports both **C** and **C++**
 - `matrix.c`   - Implementation of the matric operations
 - `maint.c`    - Test program
 
-**CP Version**
+**CPP Version**
 - `matrix.hpp` - Declaration of the Matrix class
 - `matrix.cpp` - Implementation of the matric class methods
 - `main.cpp`   - Test Program
