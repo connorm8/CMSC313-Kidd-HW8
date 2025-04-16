@@ -28,6 +28,7 @@ The project supports both **C** and **C++**
 
 ## BUILD INSTRUCTIONS
 With the makefile, running 'make mainc' or 'make maincpp' can be used to build both the C and C++ versions respectively
+
 To run the files run 'mainc' or 'maincpp' to run either the C or the C++ build
 
 ## TESTING METHODOLOGY
