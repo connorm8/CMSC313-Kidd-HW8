@@ -48,8 +48,8 @@ Both the **C** and **C++** implementations are verified with tests to ensure:
 
 **Each test prints out in the following form:**
 
-`Testing [operation] matrix size: True/False`
-`Testing [operation] values: True/False`
+     `Testing [operation] matrix size: True/False`
+     `Testing [operation] values: True/False`
 
 Operations tested include:
 - Matrix addition
