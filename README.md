@@ -34,6 +34,7 @@ The project supports both **C** and **C++**
 Run `make` to compile all programs
 
 To compile individual targets:
+
      make maincpp   - C++ main
      make testcpp   - C++ tests
      make mainc     - C main
