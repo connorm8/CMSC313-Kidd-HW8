@@ -3,7 +3,7 @@
 ## AUTHORING
 - **Author:** Connor Myers
 - **Affiliation:** UMBC / CMSC 313 - Section 04, 10am, Spring 2025
-- **DATE** 04/19/2025
+- **Date** 04/19/2025
 
 ## PURPOSE OF SOFTWARE
 This project implements a basic matrix libarary with support for the following operations:
