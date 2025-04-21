@@ -13,6 +13,14 @@ Matrix::Matrix(const std::vector<std::vector<int>>& values)
 int Matrix::getRows() const {return rows;}
 int Matrix::getCols() const {return cols;}
 
+int Matrix::getValue(int row, int col) const{
+    if(row >=0 && row < getRows() && col >= 0 && col < getCols()){
+        return data[row][col];
+    }else{
+        throw std::out_of_range("index out of bounds");
+    }
+}
+
 Matrix Matrix::operator+(const Matrix& other) const{
     Matrix result(rows, cols);
     for(int i = 0; i < rows; i++){

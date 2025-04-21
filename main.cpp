@@ -11,7 +11,7 @@ int main(){
 
     Matrix D = A + (B * 3) * C.transpose();
 
-     std::cout << "Resulting Matrix D:\n";
+    std::cout << "Resulting Matrix D:\n";
     D.print();
 
     return 0;

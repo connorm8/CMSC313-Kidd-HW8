@@ -17,6 +17,7 @@ class Matrix{
 
         int getRows() const;
         int getCols() const;
+        int getValue(int row, int col) const;
 
         Matrix operator+(const Matrix& other) const; // addition
         Matrix operator*(const Matrix& other) const; // multiplication
