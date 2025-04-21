@@ -1,8 +1,14 @@
-CXX = g++
-CXXFLAGS = -Wall
+CPPFLAGS = -O0
+CFLAGS = -std=c99 -m32 -O0
 
 maincpp: main.cpp
-	$(CXX) $(CXXFLAGS) -g main.cpp matrix.cpp -o maincpp
+	g++ $(CPPFLAGS) main.cpp matrix.cpp -o maincpp
 
 mainc: main.c
-	$(CXX) $(CXXFLAGS) -g main.c matrix.c -o mainc
+	gcc $(CFLAGS) main.c matrix.c -o mainc
+
+testcpp: test.cpp
+	g++ $(CPPFLAGS) test.cpp matrix.cpp -o testcpp
+
+testc: test.c
+	gcc $(CFLAGS) test.c matrix.c -o testc
